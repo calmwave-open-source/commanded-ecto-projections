@@ -31,7 +31,7 @@ defmodule Commanded.Projections.Ecto.Mixfile do
 
   defp deps do
     [
-      {:commanded, github: "calmwave-open-source/commanded", branch: "batching-support"},
+      {:commanded, github: "calmwave-open-source/commanded", branch: "main-calmwave"},
       {:ecto, "~> 3.11"},
       {:ecto_sql, "~> 3.11"},
       {:postgrex, ">= 0.0.0", only: :test},
